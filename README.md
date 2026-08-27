@@ -1,3 +1,3 @@
 # AlphaRAD — Project Page
 
-Visit https://jz5426.github.io/alpharad/
+Visit https://jz5426.github.io/alphaRAD/
