@@ -36,6 +36,7 @@
   --accent-strong: #084a80;
   --accent-soft: rgba(11, 95, 165, 0.10);
   --accent-line: rgba(11, 95, 165, 0.22);
+  --eccv-blue: #0b5fa5;
 
   --shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
   --radius: 24px;
@@ -98,6 +99,8 @@ h1 { font-size: clamp(2.7rem, 5vw, 4.7rem); line-height: 1.02; letter-spacing: -
 h2 { font-size: clamp(2rem, 3vw, 3rem); line-height: 1.08; letter-spacing: -0.04em; margin-bottom: 1rem; }
 h3 { font-size: 1.15rem; margin-bottom: 0.5rem; }
 
+.eccv-blue { color: var(--eccv-blue); }
+  
 .eyebrow {
   margin: 0 0 0.8rem; color: var(--accent-strong);
   text-transform: uppercase; letter-spacing: 0.14em;
@@ -324,7 +327,7 @@ pre {
   <section class="hero section">
     <div class="container">
       <div class="hero-head">
-        <p class="eyebrow">ECCV 2026 · Medical Vision–Language Pretraining</p>
+        <p class="eyebrow"><span class="eccv-blue">ECCV 2026</span> · Medical Vision–Language Pretraining</p>
         <h1>AlphaRAD: Grounded Zero-Shot Chest Radiology</h1>
         <p class="subtitle">Saying what it sees and pointing to where it sees it, with no added parameters.</p>
       </div>
